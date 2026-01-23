@@ -7,7 +7,6 @@ import com.sc.entity.AdminEntity;
 import com.sc.repository.AdminRepository;
 import com.sc.service.AdminService;
 import com.sc.util.AdminIdGenerator;
-import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

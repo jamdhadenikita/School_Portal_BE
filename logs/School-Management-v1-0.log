@@ -1,21 +1,26 @@
-2026-01-16T00:45:25.099+05:30  INFO 20352 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.2 with PID 20352 (C:\School_Project\school_backend_v1.0\target\classes started by admim in C:\School_Project\school_backend_v1.0)
-2026-01-16T00:45:25.104+05:30  INFO 20352 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
-2026-01-16T00:45:25.253+05:30  INFO 20352 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admim\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
-2026-01-16T00:45:25.255+05:30  INFO 20352 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-16T00:45:25.255+05:30  INFO 20352 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-16T00:45:27.419+05:30  INFO 20352 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-16T00:45:27.586+05:30  INFO 20352 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145 ms. Found 3 JPA repository interfaces.
-2026-01-16T00:45:28.924+05:30  INFO 20352 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
-2026-01-16T00:45:28.951+05:30  INFO 20352 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-16T00:45:28.951+05:30  INFO 20352 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-16T00:45:29.052+05:30  INFO 20352 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3795 ms
-2026-01-16T00:45:29.393+05:30  INFO 20352 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-16T00:45:29.551+05:30  INFO 20352 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-16T00:45:30.739+05:30  INFO 20352 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-16T00:45:30.818+05:30  INFO 20352 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-16T00:45:31.195+05:30  INFO 20352 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ba4aa0
-2026-01-16T00:45:31.199+05:30  INFO 20352 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-16T00:45:31.425+05:30  INFO 20352 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-01-24T00:11:45.550+05:30  INFO 20664 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-24T00:11:45.604+05:30  INFO 20664 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-24T00:11:45.644+05:30  INFO 20664 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-24T00:11:45.668+05:30  INFO 20664 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-24T00:11:45.679+05:30  INFO 20664 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-24T00:11:54.558+05:30  INFO 19832 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.2 with PID 19832 (C:\Users\admim\Downloads\School_Project_updated\school_backend_v1.0\target\classes started by admim in C:\Users\admim\Downloads\School_Project_updated\school_backend_v1.0)
+2026-01-24T00:11:54.565+05:30  INFO 19832 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-01-24T00:11:54.684+05:30  INFO 19832 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admim\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
+2026-01-24T00:11:54.685+05:30  INFO 19832 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-24T00:11:54.685+05:30  INFO 19832 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-24T00:11:56.463+05:30  INFO 19832 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-24T00:11:56.635+05:30  INFO 19832 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interface.
+2026-01-24T00:11:57.796+05:30  INFO 19832 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
+2026-01-24T00:11:57.831+05:30  INFO 19832 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-24T00:11:57.832+05:30  INFO 19832 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-24T00:11:57.923+05:30  INFO 19832 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3237 ms
+2026-01-24T00:11:58.171+05:30  INFO 19832 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-24T00:11:58.270+05:30  INFO 19832 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-24T00:11:59.430+05:30  INFO 19832 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-24T00:11:59.493+05:30  INFO 19832 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-24T00:12:00.082+05:30  INFO 19832 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5132de2b
+2026-01-24T00:12:00.088+05:30  INFO 19832 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-24T00:12:00.384+05:30  INFO 19832 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -27,68 +32,78 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-01-16T00:45:33.455+05:30  INFO 20352 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-16T00:45:33.604+05:30  INFO 20352 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T00:45:33.874+05:30  WARN 20352 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-16T00:45:34.100+05:30  WARN 20352 --- [school] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Unsatisfied dependency expressed through method 'requestMappingHandlerMapping' parameter 0: Error creating bean with name 'mvcContentNegotiationManager' defined in class path resource [org/springframework/boot/webmvc/autoconfigure/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Failed to instantiate [org.springframework.web.accept.ContentNegotiationManager]: Factory method 'mvcContentNegotiationManager' threw exception with message: Error creating bean with name 'jacksonJsonHttpMessageConvertersCustomizer' defined in class path resource [org/springframework/boot/http/converter/autoconfigure/JacksonHttpMessageConvertersConfiguration$JacksonJsonHttpMessageConverterConfiguration.class]: Unsatisfied dependency expressed through method 'jacksonJsonHttpMessageConvertersCustomizer' parameter 0: Error creating bean with name 'jacksonJsonMapper' defined in class path resource [org/springframework/boot/jackson/autoconfigure/JacksonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'jacksonJsonMapper' parameter 0: Error creating bean with name 'jsonMapperBuilder' defined in class path resource [org/springframework/boot/jackson/autoconfigure/JacksonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'jsonMapperBuilder' parameter 0: Error creating bean with name 'standardJsonMapperBuilderCustomizer' defined in class path resource [org/springframework/boot/jackson/autoconfigure/JacksonAutoConfiguration$JacksonJsonMapperBuilderCustomizerConfiguration.class]: Unsatisfied dependency expressed through method 'standardJsonMapperBuilderCustomizer' parameter 0: Error creating bean with name 'spring.jackson-org.springframework.boot.jackson.autoconfigure.JacksonProperties': Could not bind properties to 'JacksonProperties' : prefix=spring.jackson, ignoreInvalidFields=false, ignoreUnknownFields=true
-2026-01-16T00:45:34.103+05:30  INFO 20352 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T00:45:34.121+05:30  INFO 20352 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-16T00:45:34.147+05:30  INFO 20352 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-16T00:45:34.157+05:30  INFO 20352 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-01-16T00:45:34.191+05:30  INFO 20352 --- [school] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-01-16T00:45:34.247+05:30 ERROR 20352 --- [school] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to bind properties under 'spring.jackson.serialization' to java.util.Map<tools.jackson.databind.SerializationFeature, java.lang.Boolean>:
-
-    Reason: failed to convert java.lang.String to tools.jackson.databind.SerializationFeature (caused by java.lang.IllegalArgumentException: No enum constant tools.jackson.databind.SerializationFeature.write-dates-as-timestamps)
-
-Action:
-
-Update your application's configuration. The following values are valid:
-
-    CLOSE_CLOSEABLE
-    EAGER_SERIALIZER_FETCH
-    FAIL_ON_EMPTY_BEANS
-    FAIL_ON_ORDER_MAP_BY_INCOMPARABLE_KEY
-    FAIL_ON_SELF_REFERENCES
-    FAIL_ON_UNWRAPPED_TYPE_IDENTIFIERS
-    FLUSH_AFTER_WRITE_VALUE
-    INDENT_OUTPUT
-    ORDER_MAP_ENTRIES_BY_KEYS
-    USE_EQUALITY_FOR_OBJECT_ID
-    WRAP_EXCEPTIONS
-    WRAP_ROOT_VALUE
-    WRITE_CHAR_ARRAYS_AS_JSON_ARRAYS
-    WRITE_EMPTY_JSON_ARRAYS
-    WRITE_SELF_REFERENCES_AS_NULL
-    WRITE_SINGLE_ELEM_ARRAYS_UNWRAPPED
-
-2026-01-16T00:46:28.794+05:30  INFO 21916 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.2 with PID 21916 (C:\School_Project\school_backend_v1.0\target\classes started by admim in C:\School_Project\school_backend_v1.0)
-2026-01-16T00:46:28.802+05:30  INFO 21916 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
-2026-01-16T00:46:28.922+05:30  INFO 21916 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admim\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
-2026-01-16T00:46:28.923+05:30  INFO 21916 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-16T00:46:28.923+05:30  INFO 21916 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-16T00:46:30.412+05:30  INFO 21916 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-16T00:46:30.553+05:30  INFO 21916 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 3 JPA repository interfaces.
-2026-01-16T00:46:31.801+05:30  INFO 21916 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
-2026-01-16T00:46:31.826+05:30  INFO 21916 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-16T00:46:31.826+05:30  INFO 21916 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-16T00:46:31.923+05:30  INFO 21916 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2999 ms
-2026-01-16T00:46:32.301+05:30  INFO 21916 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-16T00:46:32.449+05:30  INFO 21916 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-16T00:46:33.779+05:30  INFO 21916 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-16T00:46:33.844+05:30  INFO 21916 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-16T00:46:34.157+05:30  INFO 21916 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c67bc8a
-2026-01-16T00:46:34.161+05:30  INFO 21916 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-16T00:46:34.394+05:30  INFO 21916 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-01-24T00:12:02.315+05:30  INFO 19832 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-24T00:12:02.405+05:30  INFO 19832 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-24T00:12:02.555+05:30  INFO 19832 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-24T00:12:03.172+05:30  INFO 19832 --- [school] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-01-24T00:12:03.173+05:30  WARN 19832 --- [school] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-24T00:12:03.204+05:30  WARN 19832 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-24T00:12:03.785+05:30 DEBUG 19832 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2026-01-24T00:12:03.835+05:30 DEBUG 19832 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-24T00:12:03.896+05:30 DEBUG 19832 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-24T00:12:03.992+05:30 DEBUG 19832 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-24T00:12:04.292+05:30  INFO 19832 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
+2026-01-24T00:12:04.303+05:30  INFO 19832 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 10.699 seconds (process running for 11.904)
+2026-01-24T00:12:43.710+05:30  INFO 19832 --- [school] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-24T00:12:43.710+05:30  INFO 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-24T00:12:43.710+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-01-24T00:12:43.710+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-01-24T00:12:43.710+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@39d9f019
+2026-01-24T00:12:43.710+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@722086f3
+2026-01-24T00:12:43.710+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-01-24T00:12:43.710+05:30  INFO 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-01-24T00:12:43.773+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/auth/login", parameters={}
+2026-01-24T00:12:43.795+05:30  WARN 19832 --- [school] [http-nio-8084-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2026-01-24T00:12:43.795+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 405 METHOD_NOT_ALLOWED
+2026-01-24T00:12:43.816+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2026-01-24T00:12:43.835+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2026-01-24T00:12:43.890+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-01-24T00:12:43.892+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Jan 24 00:12:43 IST 2026, status=405, error=Method Not Allowed, trace=org.springframe (truncated)...]
+2026-01-24T00:12:44.020+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 405
+2026-01-24T00:12:52.108+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/auth/login", parameters={}
+2026-01-24T00:12:52.108+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.security.AuthController#login(Map)
+2026-01-24T00:12:52.232+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [{mobile=0379543221, password=test@gmail.com}]
+2026-01-24T00:12:54.219+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-01-24T00:12:54.219+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{mobile=0379543221, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzc5NTQzMjIxIiwiaWF0IjoxNzY5MTkzNzc0LCJle (truncated)...]
+2026-01-24T00:12:54.275+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-01-24T00:13:15.899+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/get-all-admin", parameters={}
+2026-01-24T00:13:15.902+05:30  WARN 19832 --- [school] [http-nio-8084-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2026-01-24T00:13:15.902+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 405 METHOD_NOT_ALLOWED
+2026-01-24T00:13:15.902+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2026-01-24T00:13:15.902+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
+2026-01-24T00:13:15.902+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-01-24T00:13:15.908+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Jan 24 00:13:15 IST 2026, status=405, error=Method Not Allowed, trace=org.springframe (truncated)...]
+2026-01-24T00:13:15.908+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 405
+2026-01-24T00:13:21.245+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/get-all-admin", parameters={}
+2026-01-24T00:13:21.252+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#getAllAdmins()
+2026-01-24T00:13:21.263+05:30  INFO 19832 --- [school] [http-nio-8084-exec-4] com.sc.controller.AdminController        : GET /api/admin → Fetching all admins
+2026-01-24T00:13:21.264+05:30  INFO 19832 --- [school] [http-nio-8084-exec-4] c.s.s.serviceImpl.AdminServiceImpl       : Fetching all admins
+2026-01-24T00:13:21.437+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-01-24T00:13:21.440+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.sc.dto.response.AdminResponseDto@5b93fe93, com.sc.dto.response.AdminResponseDto@3a6f46d1]]
+2026-01-24T00:13:21.509+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-01-24T00:21:27.610+05:30  INFO 19832 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-24T00:21:27.620+05:30  INFO 19832 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-24T00:21:27.630+05:30  INFO 19832 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-24T00:21:27.641+05:30  INFO 19832 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-24T00:21:27.666+05:30  INFO 19832 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-24T00:21:36.730+05:30  INFO 22164 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.2 with PID 22164 (C:\Users\admim\Downloads\School_Project_updated\school_backend_v1.0\target\classes started by admim in C:\Users\admim\Downloads\School_Project_updated\school_backend_v1.0)
+2026-01-24T00:21:36.739+05:30  INFO 22164 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-01-24T00:21:36.843+05:30  INFO 22164 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admim\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
+2026-01-24T00:21:36.843+05:30  INFO 22164 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-24T00:21:36.844+05:30  INFO 22164 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-24T00:21:38.693+05:30  INFO 22164 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-24T00:21:39.091+05:30  INFO 22164 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 280 ms. Found 1 JPA repository interface.
+2026-01-24T00:21:40.788+05:30  INFO 22164 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
+2026-01-24T00:21:40.825+05:30  INFO 22164 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-24T00:21:40.826+05:30  INFO 22164 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-24T00:21:40.907+05:30  INFO 22164 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4061 ms
+2026-01-24T00:21:41.180+05:30  INFO 22164 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-24T00:21:41.322+05:30  INFO 22164 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-24T00:21:42.372+05:30  INFO 22164 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-24T00:21:42.442+05:30  INFO 22164 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-24T00:21:42.808+05:30  INFO 22164 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25f1e107
+2026-01-24T00:21:42.819+05:30  INFO 22164 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-24T00:21:42.988+05:30  INFO 22164 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -100,382 +115,30 @@ Update your application's configuration. The following values are valid:
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-01-16T00:46:36.111+05:30  INFO 21916 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-16T00:46:36.250+05:30  INFO 21916 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T00:46:36.418+05:30  WARN 21916 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-16T00:46:36.866+05:30 DEBUG 21916 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
-2026-01-16T00:46:36.922+05:30 DEBUG 21916 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-01-16T00:46:36.968+05:30 DEBUG 21916 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-01-16T00:46:37.059+05:30 DEBUG 21916 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-01-16T00:46:37.260+05:30  INFO 21916 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-16T00:46:37.304+05:30  WARN 21916 --- [school] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentRepository' defined in com.sc.repository.StudentRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.sc.entity.StudentEntity
-2026-01-16T00:46:37.307+05:30  INFO 21916 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T00:46:37.319+05:30  INFO 21916 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-16T00:46:37.330+05:30  INFO 21916 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-16T00:46:37.335+05:30  INFO 21916 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-01-16T00:46:37.352+05:30  INFO 21916 --- [school] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-01-16T00:46:37.391+05:30 ERROR 21916 --- [school] [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentRepository' defined in com.sc.repository.StudentRepository defined in @EnableJpaRepositories declared on DataJpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.sc.entity.StudentEntity
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1212) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:993) ~[spring-context-7.0.2.jar:7.0.2]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.2.jar:7.0.2]
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.1.jar:4.0.1]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.0.1.jar:4.0.1]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.0.1.jar:4.0.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.0.1.jar:4.0.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.0.1.jar:4.0.1]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.0.1.jar:4.0.1]
-	at com.sc.SchoolApplication.main(SchoolApplication.java:33) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.0.1.jar:4.0.1]
-Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.sc.entity.StudentEntity
-	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:254) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
-	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:394) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
-	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:85) ~[hibernate-core-7.2.0.Final.jar:7.2.0.Final]
-	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:92) ~[spring-data-jpa-4.0.1.jar:4.0.1]
-	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:73) ~[spring-data-jpa-4.0.1.jar:4.0.1]
-	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:270) ~[spring-data-jpa-4.0.1.jar:4.0.1]
-	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getRepositoryFragments(JpaRepositoryFactory.java:300) ~[spring-data-jpa-4.0.1.jar:4.0.1]
-	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getRepositoryFragments(JpaRepositoryFactory.java:280) ~[spring-data-jpa-4.0.1.jar:4.0.1]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport.lambda$getRepositoryStub$0(RepositoryFactorySupport.java:497) ~[spring-data-commons-4.0.1.jar:4.0.1]
-	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1229) ~[na:na]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepositoryStub(RepositoryFactorySupport.java:494) ~[spring-data-commons-4.0.1.jar:4.0.1]
-	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:334) ~[spring-data-commons-4.0.1.jar:4.0.1]
-	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$1(RepositoryFactoryBeanSupport.java:361) ~[spring-data-commons-4.0.1.jar:4.0.1]
-	at org.springframework.data.util.Lazy.getNullable(Lazy.java:136) ~[spring-data-commons-4.0.1.jar:4.0.1]
-	at org.springframework.data.util.Lazy.get(Lazy.java:114) ~[spring-data-commons-4.0.1.jar:4.0.1]
-	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:370) ~[spring-data-commons-4.0.1.jar:4.0.1]
-	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:212) ~[spring-data-jpa-4.0.1.jar:4.0.1]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1864) ~[spring-beans-7.0.2.jar:7.0.2]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1813) ~[spring-beans-7.0.2.jar:7.0.2]
-	... 21 common frames omitted
-
-2026-01-16T00:47:32.822+05:30  INFO 23076 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.2 with PID 23076 (C:\School_Project\school_backend_v1.0\target\classes started by admim in C:\School_Project\school_backend_v1.0)
-2026-01-16T00:47:32.829+05:30  INFO 23076 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
-2026-01-16T00:47:32.936+05:30  INFO 23076 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admim\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
-2026-01-16T00:47:32.938+05:30  INFO 23076 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-16T00:47:32.939+05:30  INFO 23076 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-16T00:47:34.525+05:30  INFO 23076 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-16T00:47:34.665+05:30  INFO 23076 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
-2026-01-16T00:47:35.913+05:30  INFO 23076 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
-2026-01-16T00:47:35.948+05:30  INFO 23076 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-16T00:47:35.948+05:30  INFO 23076 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-16T00:47:36.046+05:30  INFO 23076 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3106 ms
-2026-01-16T00:47:36.408+05:30  INFO 23076 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-16T00:47:36.537+05:30  INFO 23076 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-16T00:47:37.511+05:30  INFO 23076 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-16T00:47:37.560+05:30  INFO 23076 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-16T00:47:37.841+05:30  INFO 23076 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fcc9ead
-2026-01-16T00:47:37.844+05:30  INFO 23076 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-16T00:47:37.964+05:30  INFO 23076 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.41
-	Default catalog/schema: school_db/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-01-16T00:47:39.486+05:30  INFO 23076 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-16T00:47:39.580+05:30  INFO 23076 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T00:47:39.700+05:30  WARN 23076 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-16T00:47:40.015+05:30 DEBUG 23076 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
-2026-01-16T00:47:40.072+05:30 DEBUG 23076 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-01-16T00:47:40.125+05:30 DEBUG 23076 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-01-16T00:47:40.216+05:30 DEBUG 23076 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-01-16T00:47:40.393+05:30  INFO 23076 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-16T00:47:40.703+05:30  INFO 23076 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
-2026-01-16T00:47:40.714+05:30  INFO 23076 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 8.841 seconds (process running for 10.026)
-2026-01-16T01:14:53.819+05:30  INFO 23076 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-16T01:14:53.837+05:30  INFO 23076 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-16T01:14:53.850+05:30  INFO 23076 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T01:14:53.865+05:30  INFO 23076 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-16T01:14:53.873+05:30  INFO 23076 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-16T01:15:02.927+05:30  INFO 22416 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.2 with PID 22416 (C:\School_Project\school_backend_v1.0\target\classes started by admim in C:\School_Project\school_backend_v1.0)
-2026-01-16T01:15:02.931+05:30  INFO 22416 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
-2026-01-16T01:15:03.034+05:30  INFO 22416 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admim\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
-2026-01-16T01:15:03.035+05:30  INFO 22416 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-16T01:15:03.035+05:30  INFO 22416 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-16T01:15:04.817+05:30  INFO 22416 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-16T01:15:04.942+05:30  INFO 22416 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interface.
-2026-01-16T01:15:06.011+05:30  INFO 22416 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
-2026-01-16T01:15:06.077+05:30  INFO 22416 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-16T01:15:06.078+05:30  INFO 22416 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-16T01:15:06.238+05:30  INFO 22416 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3201 ms
-2026-01-16T01:15:06.633+05:30  INFO 22416 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-16T01:15:06.763+05:30  INFO 22416 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-16T01:15:07.988+05:30  INFO 22416 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-16T01:15:08.051+05:30  INFO 22416 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-16T01:15:08.419+05:30  INFO 22416 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ebe2ace
-2026-01-16T01:15:08.423+05:30  INFO 22416 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-16T01:15:08.596+05:30  INFO 22416 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.41
-	Default catalog/schema: school_db/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-01-16T01:15:10.092+05:30  INFO 22416 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-16T01:15:10.170+05:30  INFO 22416 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T01:15:10.351+05:30  INFO 22416 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-16T01:15:10.828+05:30  WARN 22416 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-16T01:15:11.126+05:30 DEBUG 22416 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
-2026-01-16T01:15:11.187+05:30 DEBUG 22416 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-01-16T01:15:11.243+05:30 DEBUG 22416 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-01-16T01:15:11.315+05:30 DEBUG 22416 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-01-16T01:15:11.560+05:30  INFO 22416 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
-2026-01-16T01:15:11.573+05:30  INFO 22416 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 9.695 seconds (process running for 10.866)
-2026-01-16T01:16:51.421+05:30  INFO 22416 --- [school] [http-nio-8084-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-16T01:16:51.421+05:30  INFO 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-16T01:16:51.421+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2026-01-16T01:16:51.421+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2026-01-16T01:16:51.421+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7d6a874b
-2026-01-16T01:16:51.421+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@ed64b63
-2026-01-16T01:16:51.421+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-01-16T01:16:51.421+05:30  INFO 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-01-16T01:16:51.454+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/create-admin", parameters={}
-2026-01-16T01:16:51.502+05:30  WARN 22416 --- [school] [http-nio-8084-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2026-01-16T01:16:51.502+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 405 METHOD_NOT_ALLOWED
-2026-01-16T01:16:51.526+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2026-01-16T01:16:51.555+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
-2026-01-16T01:16:51.618+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-16T01:16:51.625+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jan 16 01:16:51 IST 2026, status=405, error=Method Not Allowed, trace=org.springframe (truncated)...]
-2026-01-16T01:16:51.732+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 405
-2026-01-16T01:17:04.962+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/create-admin", parameters={}
-2026-01-16T01:17:04.963+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#createAdmin(AdminRequestDto)
-2026-01-16T01:17:05.108+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.sc.dto.request.AdminRequestDto@3b7bc3a3]
-2026-01-16T01:17:05.119+05:30  INFO 22416 --- [school] [http-nio-8084-exec-1] com.sc.controller.AdminController        : POST /api/admin → Creating new admin: Rahul
-2026-01-16T01:17:05.129+05:30  INFO 22416 --- [school] [http-nio-8084-exec-1] c.s.s.serviceImpl.AdminServiceImpl       : Creating new admin: Rahul Sharma
-2026-01-16T01:17:06.315+05:30  INFO 22416 --- [school] [http-nio-8084-exec-1] c.s.s.serviceImpl.AdminServiceImpl       : Admin created successfully with adminId: STD4289
-2026-01-16T01:17:06.336+05:30  INFO 22416 --- [school] [http-nio-8084-exec-1] com.sc.controller.AdminController        : Admin created successfully with ID: STD4289
-2026-01-16T01:17:06.340+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
-2026-01-16T01:17:06.343+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Admin created successfully with ID: STD4289"]
-2026-01-16T01:17:06.344+05:30 DEBUG 22416 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2026-01-16T01:17:30.154+05:30  INFO 22416 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-16T01:17:30.177+05:30  INFO 22416 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-16T01:17:30.189+05:30  INFO 22416 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T01:17:30.205+05:30  INFO 22416 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-16T01:17:30.235+05:30  INFO 22416 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-16T01:17:40.857+05:30  INFO 23200 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.2 with PID 23200 (C:\School_Project\school_backend_v1.0\target\classes started by admim in C:\School_Project\school_backend_v1.0)
-2026-01-16T01:17:40.866+05:30  INFO 23200 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
-2026-01-16T01:17:41.001+05:30  INFO 23200 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admim\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
-2026-01-16T01:17:41.002+05:30  INFO 23200 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-16T01:17:41.003+05:30  INFO 23200 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-16T01:17:42.662+05:30  INFO 23200 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-16T01:17:42.791+05:30  INFO 23200 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interface.
-2026-01-16T01:17:43.867+05:30  INFO 23200 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
-2026-01-16T01:17:43.904+05:30  INFO 23200 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-16T01:17:43.905+05:30  INFO 23200 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-16T01:17:43.981+05:30  INFO 23200 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2978 ms
-2026-01-16T01:17:44.376+05:30  INFO 23200 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-16T01:17:44.506+05:30  INFO 23200 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-16T01:17:45.808+05:30  INFO 23200 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-16T01:17:45.857+05:30  INFO 23200 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-16T01:17:46.151+05:30  INFO 23200 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e7a84f2
-2026-01-16T01:17:46.155+05:30  INFO 23200 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-16T01:17:46.330+05:30  INFO 23200 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.41
-	Default catalog/schema: school_db/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-01-16T01:17:48.662+05:30  INFO 23200 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-16T01:17:48.816+05:30  INFO 23200 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T01:17:49.136+05:30  INFO 23200 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-16T01:17:49.827+05:30  WARN 23200 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-16T01:17:50.245+05:30 DEBUG 23200 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
-2026-01-16T01:17:50.331+05:30 DEBUG 23200 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-01-16T01:17:50.399+05:30 DEBUG 23200 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-01-16T01:17:50.532+05:30 DEBUG 23200 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-01-16T01:17:50.851+05:30  INFO 23200 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
-2026-01-16T01:17:50.869+05:30  INFO 23200 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 11.083 seconds (process running for 12.447)
-2026-01-16T01:18:13.882+05:30  INFO 23200 --- [school] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-16T01:18:13.883+05:30  INFO 23200 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-16T01:18:13.883+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2026-01-16T01:18:13.884+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2026-01-16T01:18:13.886+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2b4b1155
-2026-01-16T01:18:13.887+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@122f1741
-2026-01-16T01:18:13.889+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-01-16T01:18:13.889+05:30  INFO 23200 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2026-01-16T01:18:13.910+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/create-admin", parameters={}
-2026-01-16T01:18:13.936+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#createAdmin(AdminRequestDto)
-2026-01-16T01:18:14.175+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.sc.dto.request.AdminRequestDto@32cf8fdc]
-2026-01-16T01:18:14.193+05:30  INFO 23200 --- [school] [http-nio-8084-exec-1] com.sc.controller.AdminController        : POST /api/admin → Creating new admin: Sumer
-2026-01-16T01:18:14.213+05:30  INFO 23200 --- [school] [http-nio-8084-exec-1] c.s.s.serviceImpl.AdminServiceImpl       : Creating new admin: Sumer Khan
-2026-01-16T01:18:15.438+05:30  WARN 23200 --- [school] [http-nio-8084-exec-1] com.sc.controller.AdminController        : Validation failed during create: Mobile number already in use
-2026-01-16T01:18:15.458+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
-2026-01-16T01:18:15.465+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Validation error: Mobile number already in use"]
-2026-01-16T01:18:15.497+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
-2026-01-16T01:18:57.422+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/create-admin", parameters={}
-2026-01-16T01:18:57.424+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#createAdmin(AdminRequestDto)
-2026-01-16T01:18:57.429+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.sc.dto.request.AdminRequestDto@3f93d64b]
-2026-01-16T01:18:57.431+05:30  INFO 23200 --- [school] [http-nio-8084-exec-2] com.sc.controller.AdminController        : POST /api/admin → Creating new admin: Sumer
-2026-01-16T01:18:57.435+05:30  INFO 23200 --- [school] [http-nio-8084-exec-2] c.s.s.serviceImpl.AdminServiceImpl       : Creating new admin: Sumer Khan
-2026-01-16T01:18:57.574+05:30  INFO 23200 --- [school] [http-nio-8084-exec-2] c.s.s.serviceImpl.AdminServiceImpl       : Admin created successfully with adminId: ADM7460
-2026-01-16T01:18:57.598+05:30  INFO 23200 --- [school] [http-nio-8084-exec-2] com.sc.controller.AdminController        : Admin created successfully with ID: ADM7460
-2026-01-16T01:18:57.599+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
-2026-01-16T01:18:57.600+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Admin created successfully with ID: ADM7460"]
-2026-01-16T01:18:57.602+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2026-01-16T01:19:53.100+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/patch-admin0by-adminId/ADM4289", parameters={}
-2026-01-16T01:19:53.115+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2026-01-16T01:19:53.123+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2026-01-16T01:19:53.133+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/admin/patch-admin0by-adminId/ADM4289 for request '/api/admin/patch-admin0by-adminId/ADM4289'.]
-2026-01-16T01:19:53.135+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2026-01-16T01:19:53.161+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2026-01-16T01:19:53.167+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
-2026-01-16T01:19:53.182+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-16T01:19:53.186+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jan 16 01:19:53 IST 2026, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
-2026-01-16T01:19:53.248+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2026-01-16T01:19:59.691+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : PATCH "/api/admin/patch-admin0by-adminId/ADM4289", parameters={}
-2026-01-16T01:19:59.695+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
-2026-01-16T01:19:59.708+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
-2026-01-16T01:19:59.710+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource api/admin/patch-admin0by-adminId/ADM4289 for request '/api/admin/patch-admin0by-adminId/ADM4289'.]
-2026-01-16T01:19:59.712+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2026-01-16T01:19:59.714+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2026-01-16T01:19:59.717+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
-2026-01-16T01:19:59.722+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-16T01:19:59.723+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jan 16 01:19:59 IST 2026, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
-2026-01-16T01:19:59.730+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
-2026-01-16T01:20:06.360+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-5] o.s.web.servlet.DispatcherServlet        : PATCH "/api/admin/patch-admin-by-adminId/ADM4289", parameters={}
-2026-01-16T01:20:06.362+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#patchAdmin(String, AdminRequestDto)
-2026-01-16T01:20:06.387+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.sc.dto.request.AdminRequestDto@41df79ce]
-2026-01-16T01:20:06.392+05:30  INFO 23200 --- [school] [http-nio-8084-exec-5] com.sc.controller.AdminController        : PATCH /api/admin/ADM4289 → Partial update requested
-2026-01-16T01:20:06.397+05:30  INFO 23200 --- [school] [http-nio-8084-exec-5] c.s.s.serviceImpl.AdminServiceImpl       : Partial update (PATCH) requested for adminId: ADM4289
-2026-01-16T01:20:06.517+05:30  INFO 23200 --- [school] [http-nio-8084-exec-5] c.s.s.serviceImpl.AdminServiceImpl       : Admin partially updated: ADM4289
-2026-01-16T01:20:06.576+05:30  INFO 23200 --- [school] [http-nio-8084-exec-5] com.sc.controller.AdminController        : Admin partially updated: ADM4289
-2026-01-16T01:20:06.578+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
-2026-01-16T01:20:06.579+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Admin partially updated: ADM4289"]
-2026-01-16T01:20:06.584+05:30 DEBUG 23200 --- [school] [http-nio-8084-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-01-16T01:29:11.544+05:30  INFO 23200 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-16T01:29:11.551+05:30  INFO 23200 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-16T01:29:11.558+05:30  INFO 23200 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T01:29:11.562+05:30  INFO 23200 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-16T01:29:11.572+05:30  INFO 23200 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-16T01:29:18.140+05:30  INFO 22944 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.2 with PID 22944 (C:\School_Project\school_backend_v1.0\target\classes started by admim in C:\School_Project\school_backend_v1.0)
-2026-01-16T01:29:18.144+05:30  INFO 22944 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
-2026-01-16T01:29:18.217+05:30  INFO 22944 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admim\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
-2026-01-16T01:29:18.217+05:30  INFO 22944 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-16T01:29:18.217+05:30  INFO 22944 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-16T01:29:19.359+05:30  INFO 22944 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-16T01:29:19.461+05:30  INFO 22944 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interface.
-2026-01-16T01:29:20.506+05:30  INFO 22944 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
-2026-01-16T01:29:20.535+05:30  INFO 22944 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-16T01:29:20.535+05:30  INFO 22944 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-16T01:29:20.595+05:30  INFO 22944 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2377 ms
-2026-01-16T01:29:21.138+05:30  INFO 22944 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-16T01:29:21.228+05:30  INFO 22944 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-16T01:29:22.041+05:30  INFO 22944 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-16T01:29:22.090+05:30  INFO 22944 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-16T01:29:22.316+05:30  INFO 22944 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ebe2ace
-2026-01-16T01:29:22.317+05:30  INFO 22944 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-16T01:29:22.402+05:30  INFO 22944 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.41
-	Default catalog/schema: school_db/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-01-16T01:29:23.333+05:30  INFO 22944 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-16T01:29:23.387+05:30  INFO 22944 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T01:29:23.510+05:30  INFO 22944 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-16T01:29:23.839+05:30  WARN 22944 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-16T01:29:24.088+05:30 DEBUG 22944 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
-2026-01-16T01:29:24.152+05:30 DEBUG 22944 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-01-16T01:29:24.188+05:30 DEBUG 22944 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-01-16T01:29:24.255+05:30 DEBUG 22944 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-01-16T01:29:24.436+05:30  INFO 22944 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
-2026-01-16T01:29:24.446+05:30  INFO 22944 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 7.085 seconds (process running for 8.029)
-2026-01-16T01:30:00.493+05:30  INFO 22944 --- [school] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-16T01:30:00.493+05:30  INFO 22944 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-16T01:30:00.494+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2026-01-16T01:30:00.494+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2026-01-16T01:30:00.496+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@43825ece
-2026-01-16T01:30:00.496+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2b067193
-2026-01-16T01:30:00.497+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-01-16T01:30:00.497+05:30  INFO 22944 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2026-01-16T01:30:00.504+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : DELETE "/api/admin/delete-admin-by-adminId/ADM428", parameters={}
-2026-01-16T01:30:00.517+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#deleteAdmin(String)
-2026-01-16T01:30:00.546+05:30  INFO 22944 --- [school] [http-nio-8084-exec-1] com.sc.controller.AdminController        : DELETE /api/admin/ADM428 → Deleting admin
-2026-01-16T01:30:00.556+05:30  INFO 22944 --- [school] [http-nio-8084-exec-1] c.s.s.serviceImpl.AdminServiceImpl       : Deleting admin with adminId: ADM428
-2026-01-16T01:30:01.109+05:30  WARN 22944 --- [school] [http-nio-8084-exec-1] com.sc.controller.AdminController        : Delete failed - admin not found: ADM428
-2026-01-16T01:30:01.118+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
-2026-01-16T01:30:01.120+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Admin not found with ID: ADM428"]
-2026-01-16T01:30:01.129+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
-2026-01-16T01:30:14.997+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : DELETE "/api/admin/delete-admin-by-adminId/ADM4289", parameters={}
-2026-01-16T01:30:14.998+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#deleteAdmin(String)
-2026-01-16T01:30:14.998+05:30  INFO 22944 --- [school] [http-nio-8084-exec-2] com.sc.controller.AdminController        : DELETE /api/admin/ADM4289 → Deleting admin
-2026-01-16T01:30:14.999+05:30  INFO 22944 --- [school] [http-nio-8084-exec-2] c.s.s.serviceImpl.AdminServiceImpl       : Deleting admin with adminId: ADM4289
-2026-01-16T01:30:15.021+05:30  INFO 22944 --- [school] [http-nio-8084-exec-2] c.s.s.serviceImpl.AdminServiceImpl       : Admin deleted successfully: ADM4289
-2026-01-16T01:30:15.044+05:30  INFO 22944 --- [school] [http-nio-8084-exec-2] com.sc.controller.AdminController        : Admin deleted successfully: ADM4289
-2026-01-16T01:30:15.044+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
-2026-01-16T01:30:15.044+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Admin deleted successfully: ADM4289"]
-2026-01-16T01:30:15.045+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-01-16T01:31:08.183+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/delete-admin-by-adminId/ADM4289", parameters={}
-2026-01-16T01:31:08.189+05:30  WARN 22944 --- [school] [http-nio-8084-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2026-01-16T01:31:08.189+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 405 METHOD_NOT_ALLOWED
-2026-01-16T01:31:08.189+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2026-01-16T01:31:08.189+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
-2026-01-16T01:31:08.189+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-16T01:31:08.189+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jan 16 01:31:08 IST 2026, status=405, error=Method Not Allowed, trace=org.springframe (truncated)...]
-2026-01-16T01:31:08.227+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 405
-2026-01-16T01:31:27.870+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/create-admin", parameters={}
-2026-01-16T01:31:27.871+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#createAdmin(AdminRequestDto)
-2026-01-16T01:31:27.922+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.sc.dto.request.AdminRequestDto@1c8bc44d]
-2026-01-16T01:31:27.925+05:30  INFO 22944 --- [school] [http-nio-8084-exec-4] com.sc.controller.AdminController        : POST /api/admin → Creating new admin: test_first
-2026-01-16T01:31:27.926+05:30  INFO 22944 --- [school] [http-nio-8084-exec-4] c.s.s.serviceImpl.AdminServiceImpl       : Creating new admin: test_first test_last
-2026-01-16T01:31:28.050+05:30  INFO 22944 --- [school] [http-nio-8084-exec-4] c.s.s.serviceImpl.AdminServiceImpl       : Admin created successfully with adminId: ADM7155
-2026-01-16T01:31:28.053+05:30  INFO 22944 --- [school] [http-nio-8084-exec-4] com.sc.controller.AdminController        : Admin created successfully with ID: ADM7155
-2026-01-16T01:31:28.054+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
-2026-01-16T01:31:28.054+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Admin created successfully with ID: ADM7155"]
-2026-01-16T01:31:28.055+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2026-01-16T01:35:28.145+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/get-all-admin", parameters={}
-2026-01-16T01:35:28.146+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#getAllAdmins()
-2026-01-16T01:35:28.146+05:30  INFO 22944 --- [school] [http-nio-8084-exec-5] com.sc.controller.AdminController        : GET /api/admin → Fetching all admins
-2026-01-16T01:35:28.147+05:30  INFO 22944 --- [school] [http-nio-8084-exec-5] c.s.s.serviceImpl.AdminServiceImpl       : Fetching all admins
-2026-01-16T01:35:28.172+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-16T01:35:28.172+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.sc.dto.response.AdminResponseDto@68d2349a, com.sc.dto.response.AdminResponseDto@4561aa8e]]
-2026-01-16T01:35:28.178+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-01-16T01:36:17.349+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/get-admin-by-adminId/ADM7460", parameters={}
-2026-01-16T01:36:17.350+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#getAdmin(String)
-2026-01-16T01:36:17.351+05:30  INFO 22944 --- [school] [http-nio-8084-exec-6] com.sc.controller.AdminController        : GET /api/admin/ADM7460 → Fetching admin
-2026-01-16T01:36:17.352+05:30  INFO 22944 --- [school] [http-nio-8084-exec-6] c.s.s.serviceImpl.AdminServiceImpl       : Fetching admin with adminId: ADM7460
-2026-01-16T01:36:17.357+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-16T01:36:17.357+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.sc.dto.response.AdminResponseDto@5ece1122]
-2026-01-16T01:36:17.360+05:30 DEBUG 22944 --- [school] [http-nio-8084-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-01-16T01:40:59.206+05:30  INFO 22944 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-16T01:40:59.211+05:30  INFO 22944 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-16T01:40:59.215+05:30  INFO 22944 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-16T01:40:59.219+05:30  INFO 22944 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-16T01:40:59.228+05:30  INFO 22944 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-24T00:21:44.534+05:30  INFO 22164 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-24T00:21:44.676+05:30  INFO 22164 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-24T00:21:44.865+05:30  INFO 22164 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-24T00:21:45.443+05:30  INFO 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : SecurityConfig bean initialized with JwtFilter and UserDetailsService
+2026-01-24T00:21:45.497+05:30 DEBUG 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : BCryptPasswordEncoder bean created (default strength = 10)
+2026-01-24T00:21:45.499+05:30 DEBUG 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : DaoAuthenticationProvider bean created with custom UserDetailsService
+2026-01-24T00:21:45.504+05:30  INFO 22164 --- [school] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-01-24T00:21:45.505+05:30  WARN 22164 --- [school] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-24T00:21:45.507+05:30 DEBUG 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : AuthenticationManager bean created from configuration
+2026-01-24T00:21:45.509+05:30  INFO 22164 --- [school] [restartedMain] com.sc.security.AuthController           : AuthController initialized
+2026-01-24T00:21:45.537+05:30  WARN 22164 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-24T00:21:45.839+05:30  INFO 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Configuring SecurityFilterChain - stateless JWT authentication
+2026-01-24T00:21:45.843+05:30 DEBUG 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : CSRF protection disabled (stateless API)
+2026-01-24T00:21:45.871+05:30  INFO 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Authorization rules applied: /api/admin/auth/** → permitAll, /api/admin/** → authenticated, all others → permitAll
+2026-01-24T00:21:45.873+05:30 DEBUG 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Session management set to STATELESS
+2026-01-24T00:21:45.875+05:30  INFO 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : SecurityFilterChain configuration completed successfully
+2026-01-24T00:21:46.139+05:30 DEBUG 22164 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2026-01-24T00:21:46.188+05:30 DEBUG 22164 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-01-24T00:21:46.245+05:30 DEBUG 22164 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-24T00:21:46.308+05:30 DEBUG 22164 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-24T00:21:46.586+05:30  INFO 22164 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
+2026-01-24T00:21:46.597+05:30  INFO 22164 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 10.871 seconds (process running for 12.072)
+2026-01-24T00:37:05.424+05:30  INFO 22164 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-24T00:37:05.447+05:30  INFO 22164 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-24T00:37:05.471+05:30  INFO 22164 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-24T00:37:05.489+05:30  INFO 22164 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-24T00:37:05.546+05:30  INFO 22164 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
