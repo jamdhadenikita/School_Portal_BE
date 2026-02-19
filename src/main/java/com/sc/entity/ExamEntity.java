@@ -58,16 +58,13 @@ public class ExamEntity {
     private ClassEntity classEntity;
 
     @OneToMany(mappedBy = "exam", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @Builder.Default
     private List<ExamResultEntity> results = new ArrayList<>();
 
     @OneToMany(mappedBy = "exam", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @Builder.Default
     private List<ExamScheduleEntity> schedules = new ArrayList<>();
 
     @Enumerated(EnumType.STRING)
     @Column(name = "status", nullable = false)
-    @Builder.Default
     private ExamStatus status = ExamStatus.SCHEDULED;
 
     @CreationTimestamp

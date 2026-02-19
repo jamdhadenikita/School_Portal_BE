@@ -1,26 +1,27 @@
-2026-01-24T00:11:45.550+05:30  INFO 20664 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-24T00:11:45.604+05:30  INFO 20664 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-24T00:11:45.644+05:30  INFO 20664 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-24T00:11:45.668+05:30  INFO 20664 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-24T00:11:45.679+05:30  INFO 20664 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-24T00:11:54.558+05:30  INFO 19832 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.2 with PID 19832 (C:\Users\admim\Downloads\School_Project_updated\school_backend_v1.0\target\classes started by admim in C:\Users\admim\Downloads\School_Project_updated\school_backend_v1.0)
-2026-01-24T00:11:54.565+05:30  INFO 19832 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
-2026-01-24T00:11:54.684+05:30  INFO 19832 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admim\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
-2026-01-24T00:11:54.685+05:30  INFO 19832 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-24T00:11:54.685+05:30  INFO 19832 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-24T00:11:56.463+05:30  INFO 19832 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-24T00:11:56.635+05:30  INFO 19832 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interface.
-2026-01-24T00:11:57.796+05:30  INFO 19832 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
-2026-01-24T00:11:57.831+05:30  INFO 19832 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-24T00:11:57.832+05:30  INFO 19832 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-24T00:11:57.923+05:30  INFO 19832 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3237 ms
-2026-01-24T00:11:58.171+05:30  INFO 19832 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-24T00:11:58.270+05:30  INFO 19832 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-24T00:11:59.430+05:30  INFO 19832 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-24T00:11:59.493+05:30  INFO 19832 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-24T00:12:00.082+05:30  INFO 19832 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5132de2b
-2026-01-24T00:12:00.088+05:30  INFO 19832 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-24T00:12:00.384+05:30  INFO 19832 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-02-19T10:07:45.272+05:30  WARN 15524 --- [school] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h17m14s629ms579µs200ns).
+2026-02-19T10:09:57.683+05:30  INFO 15524 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-19T10:09:57.693+05:30  INFO 15524 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-19T10:09:57.714+05:30  INFO 15524 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-19T10:09:57.722+05:30  INFO 15524 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-19T10:09:57.728+05:30  INFO 15524 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-19T10:10:05.194+05:30  INFO 16104 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.1 with PID 16104 (C:\Users\kunash\Downloads\school_backend_v1_0 1 (1)\school_backend_v1_0 1\school_backend_v1_0 1\school_backend_v1_0\target\classes started by kunash in C:\Users\kunash\Downloads\school_backend_v1_0 1 (1)\school_backend_v1_0 1\school_backend_v1_0 1\school_backend_v1_0)
+2026-02-19T10:10:05.199+05:30  INFO 16104 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-02-19T10:10:05.290+05:30  INFO 16104 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\kunash\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/kunash/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/kunash/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/kunash/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
+2026-02-19T10:10:05.291+05:30  INFO 16104 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-19T10:10:05.291+05:30  INFO 16104 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-19T10:10:06.881+05:30  INFO 16104 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-19T10:10:07.044+05:30  INFO 16104 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144 ms. Found 9 JPA repository interfaces.
+2026-02-19T10:10:08.209+05:30  INFO 16104 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
+2026-02-19T10:10:08.241+05:30  INFO 16104 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-19T10:10:08.242+05:30  INFO 16104 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-19T10:10:08.318+05:30  INFO 16104 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3027 ms
+2026-02-19T10:10:08.552+05:30  INFO 16104 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-19T10:10:08.700+05:30  INFO 16104 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-19T10:10:09.589+05:30  INFO 16104 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-19T10:10:09.642+05:30  INFO 16104 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-19T10:10:09.865+05:30  INFO 16104 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9bb125
+2026-02-19T10:10:09.867+05:30  INFO 16104 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-19T10:10:10.017+05:30  INFO 16104 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -32,113 +33,125 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-01-24T00:12:02.315+05:30  INFO 19832 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-24T00:12:02.405+05:30  INFO 19832 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-24T00:12:02.555+05:30  INFO 19832 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-24T00:12:03.172+05:30  INFO 19832 --- [school] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-01-24T00:12:03.173+05:30  WARN 19832 --- [school] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-01-24T00:12:03.204+05:30  WARN 19832 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-24T00:12:03.785+05:30 DEBUG 19832 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
-2026-01-24T00:12:03.835+05:30 DEBUG 19832 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-01-24T00:12:03.896+05:30 DEBUG 19832 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-01-24T00:12:03.992+05:30 DEBUG 19832 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-01-24T00:12:04.292+05:30  INFO 19832 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
-2026-01-24T00:12:04.303+05:30  INFO 19832 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 10.699 seconds (process running for 11.904)
-2026-01-24T00:12:43.710+05:30  INFO 19832 --- [school] [http-nio-8084-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-24T00:12:43.710+05:30  INFO 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-01-24T00:12:43.710+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2026-01-24T00:12:43.710+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2026-01-24T00:12:43.710+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@39d9f019
-2026-01-24T00:12:43.710+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@722086f3
-2026-01-24T00:12:43.710+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2026-01-24T00:12:43.710+05:30  INFO 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2026-01-24T00:12:43.773+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/auth/login", parameters={}
-2026-01-24T00:12:43.795+05:30  WARN 19832 --- [school] [http-nio-8084-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2026-01-24T00:12:43.795+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 405 METHOD_NOT_ALLOWED
-2026-01-24T00:12:43.816+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2026-01-24T00:12:43.835+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
-2026-01-24T00:12:43.890+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-24T00:12:43.892+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Jan 24 00:12:43 IST 2026, status=405, error=Method Not Allowed, trace=org.springframe (truncated)...]
-2026-01-24T00:12:44.020+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 405
-2026-01-24T00:12:52.108+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/auth/login", parameters={}
-2026-01-24T00:12:52.108+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.security.AuthController#login(Map)
-2026-01-24T00:12:52.232+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [{mobile=0379543221, password=test@gmail.com}]
-2026-01-24T00:12:54.219+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-24T00:12:54.219+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{mobile=0379543221, token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwMzc5NTQzMjIxIiwiaWF0IjoxNzY5MTkzNzc0LCJle (truncated)...]
-2026-01-24T00:12:54.275+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-01-24T00:13:15.899+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/get-all-admin", parameters={}
-2026-01-24T00:13:15.902+05:30  WARN 19832 --- [school] [http-nio-8084-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
-2026-01-24T00:13:15.902+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 405 METHOD_NOT_ALLOWED
-2026-01-24T00:13:15.902+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
-2026-01-24T00:13:15.902+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.webmvc.autoconfigure.error.BasicErrorController#error(HttpServletRequest)
-2026-01-24T00:13:15.902+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-24T00:13:15.908+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sat Jan 24 00:13:15 IST 2026, status=405, error=Method Not Allowed, trace=org.springframe (truncated)...]
-2026-01-24T00:13:15.908+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 405
-2026-01-24T00:13:21.245+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/get-all-admin", parameters={}
-2026-01-24T00:13:21.252+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.AdminController#getAllAdmins()
-2026-01-24T00:13:21.263+05:30  INFO 19832 --- [school] [http-nio-8084-exec-4] com.sc.controller.AdminController        : GET /api/admin → Fetching all admins
-2026-01-24T00:13:21.264+05:30  INFO 19832 --- [school] [http-nio-8084-exec-4] c.s.s.serviceImpl.AdminServiceImpl       : Fetching all admins
-2026-01-24T00:13:21.437+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2026-01-24T00:13:21.440+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.sc.dto.response.AdminResponseDto@5b93fe93, com.sc.dto.response.AdminResponseDto@3a6f46d1]]
-2026-01-24T00:13:21.509+05:30 DEBUG 19832 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2026-01-24T00:21:27.610+05:30  INFO 19832 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-24T00:21:27.620+05:30  INFO 19832 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-24T00:21:27.630+05:30  INFO 19832 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-24T00:21:27.641+05:30  INFO 19832 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-24T00:21:27.666+05:30  INFO 19832 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-01-24T00:21:36.730+05:30  INFO 22164 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.2 with PID 22164 (C:\Users\admim\Downloads\School_Project_updated\school_backend_v1.0\target\classes started by admim in C:\Users\admim\Downloads\School_Project_updated\school_backend_v1.0)
-2026-01-24T00:21:36.739+05:30  INFO 22164 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
-2026-01-24T00:21:36.843+05:30  INFO 22164 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admim\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/admim/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
-2026-01-24T00:21:36.843+05:30  INFO 22164 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-01-24T00:21:36.844+05:30  INFO 22164 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-01-24T00:21:38.693+05:30  INFO 22164 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-01-24T00:21:39.091+05:30  INFO 22164 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 280 ms. Found 1 JPA repository interface.
-2026-01-24T00:21:40.788+05:30  INFO 22164 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
-2026-01-24T00:21:40.825+05:30  INFO 22164 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-01-24T00:21:40.826+05:30  INFO 22164 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-24T00:21:40.907+05:30  INFO 22164 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4061 ms
-2026-01-24T00:21:41.180+05:30  INFO 22164 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-01-24T00:21:41.322+05:30  INFO 22164 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-01-24T00:21:42.372+05:30  INFO 22164 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-01-24T00:21:42.442+05:30  INFO 22164 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-01-24T00:21:42.808+05:30  INFO 22164 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25f1e107
-2026-01-24T00:21:42.819+05:30  INFO 22164 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-01-24T00:21:42.988+05:30  INFO 22164 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 8.0.41
-	Default catalog/schema: school_db/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-01-24T00:21:44.534+05:30  INFO 22164 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-01-24T00:21:44.676+05:30  INFO 22164 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-01-24T00:21:44.865+05:30  INFO 22164 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-01-24T00:21:45.443+05:30  INFO 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : SecurityConfig bean initialized with JwtFilter and UserDetailsService
-2026-01-24T00:21:45.497+05:30 DEBUG 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : BCryptPasswordEncoder bean created (default strength = 10)
-2026-01-24T00:21:45.499+05:30 DEBUG 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : DaoAuthenticationProvider bean created with custom UserDetailsService
-2026-01-24T00:21:45.504+05:30  INFO 22164 --- [school] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-01-24T00:21:45.505+05:30  WARN 22164 --- [school] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-01-24T00:21:45.507+05:30 DEBUG 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : AuthenticationManager bean created from configuration
-2026-01-24T00:21:45.509+05:30  INFO 22164 --- [school] [restartedMain] com.sc.security.AuthController           : AuthController initialized
-2026-01-24T00:21:45.537+05:30  WARN 22164 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-24T00:21:45.839+05:30  INFO 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Configuring SecurityFilterChain - stateless JWT authentication
-2026-01-24T00:21:45.843+05:30 DEBUG 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : CSRF protection disabled (stateless API)
-2026-01-24T00:21:45.871+05:30  INFO 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Authorization rules applied: /api/admin/auth/** → permitAll, /api/admin/** → authenticated, all others → permitAll
-2026-01-24T00:21:45.873+05:30 DEBUG 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Session management set to STATELESS
-2026-01-24T00:21:45.875+05:30  INFO 22164 --- [school] [restartedMain] com.sc.security.SecurityConfig           : SecurityFilterChain configuration completed successfully
-2026-01-24T00:21:46.139+05:30 DEBUG 22164 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
-2026-01-24T00:21:46.188+05:30 DEBUG 22164 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-01-24T00:21:46.245+05:30 DEBUG 22164 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-01-24T00:21:46.308+05:30 DEBUG 22164 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-01-24T00:21:46.586+05:30  INFO 22164 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
-2026-01-24T00:21:46.597+05:30  INFO 22164 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 10.871 seconds (process running for 12.072)
-2026-01-24T00:37:05.424+05:30  INFO 22164 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-01-24T00:37:05.447+05:30  INFO 22164 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-01-24T00:37:05.471+05:30  INFO 22164 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-01-24T00:37:05.489+05:30  INFO 22164 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-01-24T00:37:05.546+05:30  INFO 22164 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-19T10:10:10.299+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.ClassEntity.createdAt.
+2026-02-19T10:10:10.301+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.ClassEntity.updatedAt.
+2026-02-19T10:10:10.334+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.FeesEntity.createdAt.
+2026-02-19T10:10:10.339+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.FeesEntity.updatedAt.
+2026-02-19T10:10:10.344+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.createdAt.
+2026-02-19T10:10:10.345+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.deliveredDate.
+2026-02-19T10:10:10.346+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.dueDate.
+2026-02-19T10:10:10.346+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.readAt.
+2026-02-19T10:10:10.347+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.sentDate.
+2026-02-19T10:10:10.348+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.updatedAt.
+2026-02-19T10:10:10.363+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.admissionDate.
+2026-02-19T10:10:10.364+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.createdAt.
+2026-02-19T10:10:10.365+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.dateOfBirth.
+2026-02-19T10:10:10.374+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.updatedAt.
+2026-02-19T10:10:10.379+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.SubjectEntity.createdAt.
+2026-02-19T10:10:10.381+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.SubjectEntity.updatedAt.
+2026-02-19T10:10:10.393+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.createdAt.
+2026-02-19T10:10:10.394+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.dob.
+2026-02-19T10:10:10.396+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.joiningDate.
+2026-02-19T10:10:10.397+05:30  WARN 16104 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.lastUpdated.
+2026-02-19T10:10:12.182+05:30  INFO 16104 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-19T10:10:12.377+05:30  INFO 16104 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-19T10:10:12.487+05:30  INFO 16104 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-19T10:10:15.489+05:30  INFO 16104 --- [school] [restartedMain] com.sc.security.SecurityConfig           : SecurityConfig bean initialized with JwtFilter and UserDetailsService
+2026-02-19T10:10:15.529+05:30 DEBUG 16104 --- [school] [restartedMain] com.sc.security.SecurityConfig           : BCryptPasswordEncoder bean created (default strength = 10)
+2026-02-19T10:10:15.529+05:30 DEBUG 16104 --- [school] [restartedMain] com.sc.security.SecurityConfig           : DaoAuthenticationProvider bean created with custom UserDetailsService
+2026-02-19T10:10:15.532+05:30  INFO 16104 --- [school] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-02-19T10:10:15.533+05:30  WARN 16104 --- [school] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-02-19T10:10:15.534+05:30 DEBUG 16104 --- [school] [restartedMain] com.sc.security.SecurityConfig           : AuthenticationManager bean created from configuration
+2026-02-19T10:10:15.535+05:30  INFO 16104 --- [school] [restartedMain] com.sc.security.AuthController           : AuthController initialized
+2026-02-19T10:10:15.564+05:30  WARN 16104 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-19T10:10:15.786+05:30  INFO 16104 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Configuring SecurityFilterChain - stateless JWT authentication
+2026-02-19T10:10:15.790+05:30 DEBUG 16104 --- [school] [restartedMain] com.sc.security.SecurityConfig           : CSRF protection disabled (stateless API)
+2026-02-19T10:10:15.811+05:30  INFO 16104 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Authorization rules applied: /api/admin/auth/** → permitAll, /api/admin/** → authenticated, all others → permitAll
+2026-02-19T10:10:15.814+05:30 DEBUG 16104 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Session management set to STATELESS
+2026-02-19T10:10:15.815+05:30  INFO 16104 --- [school] [restartedMain] com.sc.security.SecurityConfig           : SecurityFilterChain configuration completed successfully
+2026-02-19T10:10:16.064+05:30 DEBUG 16104 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 154 mappings in 'requestMappingHandlerMapping'
+2026-02-19T10:10:16.122+05:30 DEBUG 16104 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-19T10:10:16.178+05:30 DEBUG 16104 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-19T10:10:16.234+05:30 DEBUG 16104 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-19T10:10:16.573+05:30  INFO 16104 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
+2026-02-19T10:10:16.590+05:30  INFO 16104 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 12.195 seconds (process running for 13.153)
+2026-02-19T10:15:40.087+05:30  INFO 16104 --- [school] [http-nio-8084-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-19T10:15:40.089+05:30  INFO 16104 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-19T10:15:40.090+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2026-02-19T10:15:40.091+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2026-02-19T10:15:40.095+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@d75eda5
+2026-02-19T10:15:40.096+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@46d5ac91
+2026-02-19T10:15:40.097+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2026-02-19T10:15:40.098+05:30  INFO 16104 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2026-02-19T10:15:40.158+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/students/create-student-with-files", parameters={multipart}
+2026-02-19T10:15:40.322+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.StudentController#createStudentWithFiles(String, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile)
+2026-02-19T10:15:40.391+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] .m.m.a.RequestPartMethodArgumentResolver : Read "application/octet-stream" to ["{<EOL><EOL>  "studentId": "STU2024012",<EOL><EOL>  "studentRollNumber": "2024-012",<EOL><EOL>  "firstName": "Priya",<EOL><EOL>  "mid (truncated)..."]
+2026-02-19T10:15:40.434+05:30  INFO 16104 --- [school] [http-nio-8084-exec-3] com.sc.controller.StudentController      : Creating student with multipart data
+2026-02-19T10:15:40.688+05:30  INFO 16104 --- [school] [http-nio-8084-exec-3] c.s.s.serviceImpl.StudentServiceImpl     : Creating student: STU2024012
+2026-02-19T10:15:41.260+05:30  INFO 16104 --- [school] [http-nio-8084-exec-3] c.s.s.serviceImpl.StudentServiceImpl     : Student saved with ID: 1
+2026-02-19T10:15:41.261+05:30  INFO 16104 --- [school] [http-nio-8084-exec-3] c.s.service.serviceImpl.FeesServiceImpl  : Creating fees for student ID: 1
+2026-02-19T10:15:41.402+05:30  INFO 16104 --- [school] [http-nio-8084-exec-3] c.s.service.serviceImpl.FeesServiceImpl  : Fees created successfully with ID: 1 for student ID: STU2024012
+2026-02-19T10:15:41.405+05:30  INFO 16104 --- [school] [http-nio-8084-exec-3] c.s.s.serviceImpl.StudentServiceImpl     : Fees created for student ID: 1
+2026-02-19T10:15:41.550+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-19T10:15:41.553+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [StudentResponseDto{stdId=1, studentId='STU2024012', firstName='Priya', lastName='Verma', currentClas (truncated)...]
+2026-02-19T10:15:41.814+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-02-19T10:15:52.927+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/students/create-student-with-files", parameters={multipart}
+2026-02-19T10:15:52.974+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.StudentController#createStudentWithFiles(String, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile)
+2026-02-19T10:15:52.977+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-1] .m.m.a.RequestPartMethodArgumentResolver : Read "application/octet-stream" to ["{<EOL><EOL>  "studentId": "STU2024016",<EOL><EOL>  "studentRollNumber": "2024-016",<EOL><EOL>  "firstName": "Anjali",<EOL><EOL>  "mi (truncated)..."]
+2026-02-19T10:15:52.977+05:30  INFO 16104 --- [school] [http-nio-8084-exec-1] com.sc.controller.StudentController      : Creating student with multipart data
+2026-02-19T10:15:52.988+05:30  INFO 16104 --- [school] [http-nio-8084-exec-1] c.s.s.serviceImpl.StudentServiceImpl     : Creating student: STU2024016
+2026-02-19T10:15:53.151+05:30  INFO 16104 --- [school] [http-nio-8084-exec-1] c.s.s.serviceImpl.StudentServiceImpl     : Student saved with ID: 2
+2026-02-19T10:15:53.152+05:30  INFO 16104 --- [school] [http-nio-8084-exec-1] c.s.service.serviceImpl.FeesServiceImpl  : Creating fees for student ID: 2
+2026-02-19T10:15:53.178+05:30  INFO 16104 --- [school] [http-nio-8084-exec-1] c.s.service.serviceImpl.FeesServiceImpl  : Fees created successfully with ID: 2 for student ID: STU2024016
+2026-02-19T10:15:53.180+05:30  INFO 16104 --- [school] [http-nio-8084-exec-1] c.s.s.serviceImpl.StudentServiceImpl     : Fees created for student ID: 2
+2026-02-19T10:15:53.250+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-19T10:15:53.250+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [StudentResponseDto{stdId=2, studentId='STU2024016', firstName='Anjali', lastName='Patil', currentCla (truncated)...]
+2026-02-19T10:15:53.263+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-02-19T10:16:26.739+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/students/create-student-with-files", parameters={multipart}
+2026-02-19T10:16:26.797+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.StudentController#createStudentWithFiles(String, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile)
+2026-02-19T10:16:26.799+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-4] .m.m.a.RequestPartMethodArgumentResolver : Read "application/octet-stream" to ["{<EOL><EOL>  "studentId": "STU2024015",<EOL><EOL>  "studentRollNumber": "2024-015",<EOL><EOL>  "firstName": "Priya",<EOL><EOL>  "mid (truncated)..."]
+2026-02-19T10:16:26.800+05:30  INFO 16104 --- [school] [http-nio-8084-exec-4] com.sc.controller.StudentController      : Creating student with multipart data
+2026-02-19T10:16:26.806+05:30  INFO 16104 --- [school] [http-nio-8084-exec-4] c.s.s.serviceImpl.StudentServiceImpl     : Creating student: STU2024015
+2026-02-19T10:16:26.949+05:30  INFO 16104 --- [school] [http-nio-8084-exec-4] c.s.s.serviceImpl.StudentServiceImpl     : Student saved with ID: 3
+2026-02-19T10:16:26.950+05:30  INFO 16104 --- [school] [http-nio-8084-exec-4] c.s.service.serviceImpl.FeesServiceImpl  : Creating fees for student ID: 3
+2026-02-19T10:16:26.980+05:30  INFO 16104 --- [school] [http-nio-8084-exec-4] c.s.service.serviceImpl.FeesServiceImpl  : Fees created successfully with ID: 3 for student ID: STU2024015
+2026-02-19T10:16:26.981+05:30  INFO 16104 --- [school] [http-nio-8084-exec-4] c.s.s.serviceImpl.StudentServiceImpl     : Fees created for student ID: 3
+2026-02-19T10:16:27.037+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-19T10:16:27.038+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [StudentResponseDto{stdId=3, studentId='STU2024015', firstName='Priya', lastName='Verma', currentClas (truncated)...]
+2026-02-19T10:16:27.050+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-02-19T10:16:49.285+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/students/create-student-with-files", parameters={multipart}
+2026-02-19T10:16:49.350+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.StudentController#createStudentWithFiles(String, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile)
+2026-02-19T10:16:49.354+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-5] .m.m.a.RequestPartMethodArgumentResolver : Read "application/octet-stream" to ["{<EOL><EOL>  "studentId": "STU2024014",<EOL><EOL>  "studentRollNumber": "2024-014",<EOL><EOL>  "firstName": "Kunal",<EOL><EOL>  "mid (truncated)..."]
+2026-02-19T10:16:49.363+05:30  INFO 16104 --- [school] [http-nio-8084-exec-5] com.sc.controller.StudentController      : Creating student with multipart data
+2026-02-19T10:16:49.370+05:30  INFO 16104 --- [school] [http-nio-8084-exec-5] c.s.s.serviceImpl.StudentServiceImpl     : Creating student: STU2024014
+2026-02-19T10:16:49.511+05:30  INFO 16104 --- [school] [http-nio-8084-exec-5] c.s.s.serviceImpl.StudentServiceImpl     : Student saved with ID: 4
+2026-02-19T10:16:49.512+05:30  INFO 16104 --- [school] [http-nio-8084-exec-5] c.s.service.serviceImpl.FeesServiceImpl  : Creating fees for student ID: 4
+2026-02-19T10:16:49.537+05:30  INFO 16104 --- [school] [http-nio-8084-exec-5] c.s.service.serviceImpl.FeesServiceImpl  : Fees created successfully with ID: 4 for student ID: STU2024014
+2026-02-19T10:16:49.537+05:30  INFO 16104 --- [school] [http-nio-8084-exec-5] c.s.s.serviceImpl.StudentServiceImpl     : Fees created for student ID: 4
+2026-02-19T10:16:49.600+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-19T10:16:49.600+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [StudentResponseDto{stdId=4, studentId='STU2024014', firstName='Kunal', lastName='Jamdhade', currentC (truncated)...]
+2026-02-19T10:16:49.612+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-02-19T10:17:23.054+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/students/create-student-with-files", parameters={multipart}
+2026-02-19T10:17:23.105+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.StudentController#createStudentWithFiles(String, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile, MultipartFile)
+2026-02-19T10:17:23.106+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-6] .m.m.a.RequestPartMethodArgumentResolver : Read "application/octet-stream" to ["{<EOL><EOL>  "studentId": "STU2024013",<EOL><EOL>  "studentRollNumber": "2024-013",<EOL><EOL>  "firstName": "Nikita",<EOL><EOL>  "mi (truncated)..."]
+2026-02-19T10:17:23.107+05:30  INFO 16104 --- [school] [http-nio-8084-exec-6] com.sc.controller.StudentController      : Creating student with multipart data
+2026-02-19T10:17:23.111+05:30  INFO 16104 --- [school] [http-nio-8084-exec-6] c.s.s.serviceImpl.StudentServiceImpl     : Creating student: STU2024013
+2026-02-19T10:17:23.239+05:30  INFO 16104 --- [school] [http-nio-8084-exec-6] c.s.s.serviceImpl.StudentServiceImpl     : Student saved with ID: 5
+2026-02-19T10:17:23.239+05:30  INFO 16104 --- [school] [http-nio-8084-exec-6] c.s.service.serviceImpl.FeesServiceImpl  : Creating fees for student ID: 5
+2026-02-19T10:17:23.263+05:30  INFO 16104 --- [school] [http-nio-8084-exec-6] c.s.service.serviceImpl.FeesServiceImpl  : Fees created successfully with ID: 5 for student ID: STU2024013
+2026-02-19T10:17:23.263+05:30  INFO 16104 --- [school] [http-nio-8084-exec-6] c.s.s.serviceImpl.StudentServiceImpl     : Fees created for student ID: 5
+2026-02-19T10:17:23.318+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-19T10:17:23.320+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [StudentResponseDto{stdId=5, studentId='STU2024013', firstName='Nikita', lastName='Jamdhade', current (truncated)...]
+2026-02-19T10:17:23.328+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
+2026-02-19T10:19:14.198+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/students/get-all-students", parameters={}
+2026-02-19T10:19:14.201+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.sc.controller.StudentController#getAllStudents()
+2026-02-19T10:19:14.509+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2026-02-19T10:19:14.511+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[StudentResponseDto{stdId=1, studentId='STU2024012', firstName='Priya', lastName='Verma', currentCla (truncated)...]
+2026-02-19T10:19:14.563+05:30 DEBUG 16104 --- [school] [http-nio-8084-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2026-02-19T15:08:27.658+05:30  WARN 16104 --- [school] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m17s145ms975µs200ns).
+2026-02-19T17:10:34.891+05:30  WARN 16104 --- [school] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m36s955ms363µs300ns).
+2026-02-19T17:56:01.195+05:30  INFO 16104 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-19T17:56:01.206+05:30  INFO 16104 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-19T17:56:01.244+05:30  INFO 16104 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-19T17:56:01.275+05:30  INFO 16104 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-19T17:56:01.285+05:30  INFO 16104 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

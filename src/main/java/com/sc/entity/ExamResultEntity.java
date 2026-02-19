@@ -39,7 +39,7 @@ public class ExamResultEntity {
     @Column(name = "max_marks", nullable = false)
     private Double maxMarks;
 
-    @Column(name = "percentage", precision = 5, scale = 2)
+    @Column(name = "percentage")
     private Double percentage;
 
     @Column(name = "grade", length = 5)
