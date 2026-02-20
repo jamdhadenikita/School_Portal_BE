@@ -1,28 +1,17 @@
 package com.sc.entity;
 
-import com.sc.enum_util.AttendanceStatus;
 import jakarta.persistence.*;
-import lombok.*;
-import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.UpdateTimestamp;
-
-import javax.security.auth.Subject;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 
-//@Entity
-//@Table(name = "attendance")
-//@Data
-//@NoArgsConstructor
-//@AllArgsConstructor
-//@Builder
+@Entity
+@Table(name = "attendance",
+        uniqueConstraints = @UniqueConstraint(columnNames = {"student_id", "attendance_date"}))
 public class AttendanceEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    @Column(name = "attendance_id", updatable = false, nullable = false)
-    private String attendanceId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "student_id", nullable = false)
@@ -31,51 +20,54 @@ public class AttendanceEntity {
     @Column(name = "attendance_date", nullable = false)
     private LocalDate attendanceDate;
 
-    @Enumerated(EnumType.STRING)
     @Column(name = "status", nullable = false)
-    private AttendanceStatus status;
+    private String status; // PRESENT, ABSENT, LEAVE, HOLIDAY, WEEKEND
 
-    @Column(name = "check_in_time")
-    private LocalTime checkInTime;
+    @Column(name = "leave_type")
+    private String leaveType; // SICK, CASUAL, EMERGENCY, etc.
 
-    @Column(name = "check_out_time")
-    private LocalTime checkOutTime;
+    @Column(name = "reason", length = 500)
+    private String reason;
 
-    @Column(name = "remarks", length = 500)
-    private String remarks;
+    @Column(name = "is_working_day")
+    private Boolean isWorkingDay = true; // false for holidays, weekends
 
     @Column(name = "marked_by")
-    private String markedBy; // Teacher ID or Admin ID
+    private String markedBy;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "subject_id")
-    private SubjectEntity subject; // For subject-wise attendance (optional) - CHANGED THIS LINE
+    @Column(name = "marked_at")
+    private LocalDateTime markedAt;
 
-    @Column(name = "session", length = 50)
-    private String session; // Morning/Afternoon
-
-    @CreationTimestamp
-    @Column(name = "created_at", updatable = false)
-    private LocalDateTime createdAt;
-
-    @UpdateTimestamp
-    @Column(name = "updated_at")
-    private LocalDateTime updatedAt;
-
-    // Helper methods
-    public double getAttendanceHours() {
-        if (checkInTime != null && checkOutTime != null) {
-            return java.time.Duration.between(checkInTime, checkOutTime).toHours();
-        }
-        return 0.0;
+    @PrePersist
+    protected void onCreate() {
+        markedAt = LocalDateTime.now();
     }
 
-    public boolean isFullDay() {
-        return status == AttendanceStatus.PRESENT && getAttendanceHours() >= 6;
-    }
+    // Getters and Setters
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
 
-    public boolean isHalfDay() {
-        return status == AttendanceStatus.PRESENT && getAttendanceHours() >= 3 && getAttendanceHours() < 6;
-    }
+    public StudentEntity getStudent() { return student; }
+    public void setStudent(StudentEntity student) { this.student = student; }
+
+    public LocalDate getAttendanceDate() { return attendanceDate; }
+    public void setAttendanceDate(LocalDate attendanceDate) { this.attendanceDate = attendanceDate; }
+
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
+
+    public String getLeaveType() { return leaveType; }
+    public void setLeaveType(String leaveType) { this.leaveType = leaveType; }
+
+    public String getReason() { return reason; }
+    public void setReason(String reason) { this.reason = reason; }
+
+    public Boolean getIsWorkingDay() { return isWorkingDay; }
+    public void setIsWorkingDay(Boolean isWorkingDay) { this.isWorkingDay = isWorkingDay; }
+
+    public String getMarkedBy() { return markedBy; }
+    public void setMarkedBy(String markedBy) { this.markedBy = markedBy; }
+
+    public LocalDateTime getMarkedAt() { return markedAt; }
+    public void setMarkedAt(LocalDateTime markedAt) { this.markedAt = markedAt; }
 }
-
