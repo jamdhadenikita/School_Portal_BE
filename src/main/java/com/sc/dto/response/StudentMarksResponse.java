@@ -32,7 +32,7 @@ public class StudentMarksResponse {
         this.rollNumber = entity.getStudent().getStudentRollNumber();
         this.className = entity.getStudent().getCurrentClass();
         this.section = entity.getStudent().getSection();
-        this.examType = entity.getExamType();
+        this.examType = String.valueOf(entity.getExamType());
         this.examName = entity.getExamName();
         this.academicYear = entity.getAcademicYear();
         this.assessmentDate = entity.getAssessmentDate();

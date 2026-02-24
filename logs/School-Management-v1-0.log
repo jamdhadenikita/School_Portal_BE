@@ -1,21 +1,115 @@
-2026-02-23T11:26:52.034+05:30  INFO 16588 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.1 with PID 16588 (C:\Users\kunash\Downloads\school_backend_v1_0 1 (1)\school_backend_v1_0 1\school_backend_v1_0 1\school_backend_v1_0\target\classes started by kunash in C:\Users\kunash\Downloads\school_backend_v1_0 1 (1)\school_backend_v1_0 1\school_backend_v1_0 1\school_backend_v1_0)
-2026-02-23T11:26:52.048+05:30  INFO 16588 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
-2026-02-23T11:26:52.183+05:30  INFO 16588 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\kunash\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/kunash/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/kunash/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/kunash/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
-2026-02-23T11:26:52.184+05:30  INFO 16588 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-02-23T11:26:52.185+05:30  INFO 16588 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-02-23T11:26:57.252+05:30  INFO 16588 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-02-23T11:26:57.436+05:30  INFO 16588 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 13 JPA repository interfaces.
-2026-02-23T11:26:58.611+05:30  INFO 16588 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
-2026-02-23T11:26:58.638+05:30  INFO 16588 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-02-23T11:26:58.639+05:30  INFO 16588 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-02-23T11:26:58.733+05:30  INFO 16588 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 6546 ms
-2026-02-23T11:26:58.995+05:30  INFO 16588 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-02-23T11:26:59.155+05:30  INFO 16588 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
-2026-02-23T11:27:00.226+05:30  INFO 16588 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-02-23T11:27:00.282+05:30  INFO 16588 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-02-23T11:27:00.604+05:30  INFO 16588 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3324d001
-2026-02-23T11:27:00.607+05:30  INFO 16588 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-02-23T11:27:00.779+05:30  INFO 16588 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-02-24T10:01:38.942+05:30  WARN 16588 --- [school] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h49m24s613ms548µs900ns).
+2026-02-24T10:48:27.673+05:30  WARN 16588 --- [school] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m48s670ms33µs700ns).
+2026-02-24T11:02:02.574+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ⏰ CHECKING FOR INSTALLMENTS WITH PASSED DUE DATES...
+2026-02-24T11:02:02.576+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Current date: 2026-02-24
+2026-02-24T11:02:02.665+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Found 2 due installments for student: STU2024012
+2026-02-24T11:02:07.126+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:02:07.126+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #2 (677 days overdue)
+2026-02-24T11:02:11.345+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:02:11.346+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #3 (647 days overdue)
+2026-02-24T11:02:11.403+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Found 2 due installments for student: STU2024015
+2026-02-24T11:02:15.419+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: jamdhadenikita9@gmail.com
+2026-02-24T11:02:15.420+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #2 (677 days overdue)
+2026-02-24T11:02:19.310+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: jamdhadenikita9@gmail.com
+2026-02-24T11:02:19.311+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #3 (647 days overdue)
+2026-02-24T11:02:19.349+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Found 3 due installments for student: STU2024014
+2026-02-24T11:02:23.408+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: kunashmedia4@gmail.com
+2026-02-24T11:02:23.409+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #2 (745 days overdue)
+2026-02-24T11:02:27.298+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: kunashmedia4@gmail.com
+2026-02-24T11:02:27.299+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #3 (716 days overdue)
+2026-02-24T11:02:31.394+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: kunashmedia4@gmail.com
+2026-02-24T11:02:31.396+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #4 (685 days overdue)
+2026-02-24T11:02:31.474+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Found 3 due installments for student: STU2024013
+2026-02-24T11:02:35.287+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:02:35.288+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #2 (680 days overdue)
+2026-02-24T11:02:38.974+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:02:38.975+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #3 (650 days overdue)
+2026-02-24T11:02:42.556+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:02:42.556+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #4 (619 days overdue)
+2026-02-24T11:02:42.642+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Found 3 due installments for student: STU2024055
+2026-02-24T11:02:45.955+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:02:45.956+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #2 (680 days overdue)
+2026-02-24T11:02:49.827+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:02:49.828+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #3 (650 days overdue)
+2026-02-24T11:02:53.205+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:02:53.206+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #4 (619 days overdue)
+2026-02-24T11:02:53.206+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ DUE DATE CHECK COMPLETED - Found: 13, Emails Sent: 13
+2026-02-24T11:02:53.245+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ⏰⏰ RUNNING SCHEDULED DAILY FEE REMINDERS...
+2026-02-24T11:02:53.246+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 🔍🔍 SEARCHING FOR ALL STUDENTS WITH PENDING FEES...
+2026-02-24T11:02:53.392+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 📊📊 FOUND 5 STUDENTS WITH PENDING FEES
+2026-02-24T11:02:53.393+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 🔍 Checking pending fees for student ID: 1
+2026-02-24T11:02:53.430+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 💰 Student ID: 1 has pending fees of ₹15400. Sending reminder...
+2026-02-24T11:02:57.200+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Fee reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:02:57.201+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ Fee reminder sent successfully to student: STU2024012 (Pending: ₹15400) - [IN-APP + EMAIL]
+2026-02-24T11:02:57.208+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 🔍 Checking pending fees for student ID: 3
+2026-02-24T11:02:57.219+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 💰 Student ID: 3 has pending fees of ₹15400. Sending reminder...
+2026-02-24T11:03:01.090+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Fee reminder email sent successfully to: jamdhadenikita9@gmail.com
+2026-02-24T11:03:01.092+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ Fee reminder sent successfully to student: STU2024015 (Pending: ₹15400) - [IN-APP + EMAIL]
+2026-02-24T11:03:01.092+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 🔍 Checking pending fees for student ID: 4
+2026-02-24T11:03:01.113+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 💰 Student ID: 4 has pending fees of ₹14600. Sending reminder...
+2026-02-24T11:03:05.084+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Fee reminder email sent successfully to: kunashmedia4@gmail.com
+2026-02-24T11:03:05.084+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ Fee reminder sent successfully to student: STU2024014 (Pending: ₹14600) - [IN-APP + EMAIL]
+2026-02-24T11:03:05.085+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 🔍 Checking pending fees for student ID: 5
+2026-02-24T11:03:05.102+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 💰 Student ID: 5 has pending fees of ₹15000. Sending reminder...
+2026-02-24T11:03:08.545+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Fee reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:03:08.546+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ Fee reminder sent successfully to student: STU2024013 (Pending: ₹15000) - [IN-APP + EMAIL]
+2026-02-24T11:03:08.547+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 🔍 Checking pending fees for student ID: 6
+2026-02-24T11:03:08.569+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 💰 Student ID: 6 has pending fees of ₹15000. Sending reminder...
+2026-02-24T11:03:12.153+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Fee reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:03:12.154+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ Fee reminder sent successfully to student: STU2024055 (Pending: ₹15000) - [IN-APP + EMAIL]
+2026-02-24T11:03:12.154+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ BULK REMINDERS COMPLETED - Success: 5, Failed: 0
+2026-02-24T11:03:12.155+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : 🔍🔍 SEARCHING FOR STUDENTS WITH OVERDUE INSTALLMENTS...
+2026-02-24T11:03:15.900+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:03:15.900+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024012 for installment #2
+2026-02-24T11:03:19.625+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:03:19.626+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024012 for installment #3
+2026-02-24T11:03:23.617+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: jamdhadenikita9@gmail.com
+2026-02-24T11:03:23.618+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024015 for installment #2
+2026-02-24T11:03:27.223+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: jamdhadenikita9@gmail.com
+2026-02-24T11:03:27.225+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024015 for installment #3
+2026-02-24T11:03:30.787+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: kunashmedia4@gmail.com
+2026-02-24T11:03:30.788+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024014 for installment #2
+2026-02-24T11:03:34.472+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: kunashmedia4@gmail.com
+2026-02-24T11:03:34.474+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024014 for installment #3
+2026-02-24T11:03:38.159+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: kunashmedia4@gmail.com
+2026-02-24T11:03:38.161+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024014 for installment #4
+2026-02-24T11:03:42.051+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:03:42.052+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024013 for installment #2
+2026-02-24T11:03:45.737+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:03:45.739+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024013 for installment #3
+2026-02-24T11:03:49.629+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:03:49.630+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024013 for installment #4
+2026-02-24T11:03:53.314+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:03:53.315+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024055 for installment #2
+2026-02-24T11:03:57.207+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:03:57.208+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024055 for installment #3
+2026-02-24T11:04:00.912+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
+2026-02-24T11:04:00.913+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent to student: STU2024055 for installment #4
+2026-02-24T11:04:00.913+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ Sent 13 overdue reminders
+2026-02-24T11:04:00.914+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ Daily fee reminders completed successfully
+2026-02-24T11:23:36.889+05:30  INFO 16588 --- [school] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-24T11:23:36.903+05:30  INFO 16588 --- [school] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-24T11:23:36.925+05:30  INFO 16588 --- [school] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-24T11:23:36.939+05:30  INFO 16588 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-24T11:23:36.943+05:30  INFO 16588 --- [school] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-24T11:25:52.140+05:30  INFO 13168 --- [school] [restartedMain] com.sc.SchoolApplication                 : Starting SchoolApplication using Java 24.0.1 with PID 13168 (C:\Users\kunash\Downloads\school_backend_v1_0 1 (1)\school_backend_v1_0 1\school_backend_v1_0 1\school_backend_v1_0\target\classes started by kunash in C:\Users\kunash\Downloads\school_backend_v1_0 1 (1)\school_backend_v1_0 1\school_backend_v1_0 1\school_backend_v1_0)
+2026-02-24T11:25:52.144+05:30  INFO 13168 --- [school] [restartedMain] com.sc.SchoolApplication                 : No active profile set, falling back to 1 default profile: "default"
+2026-02-24T11:25:52.244+05:30  INFO 13168 --- [school] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\kunash\.m2\repository\io\github\cdimascio\java-dotenv\5.2.2\java-dotenv-5.2.2.jar referenced one or more files that do not exist: file:/C:/Users/kunash/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-1.4.0.jar,file:/C:/Users/kunash/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/kotlin-stdlib-common-1.4.0.jar,file:/C:/Users/kunash/.m2/repository/io/github/cdimascio/java-dotenv/5.2.2/annotations-13.0.jar
+2026-02-24T11:25:52.245+05:30  INFO 13168 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-24T11:25:52.245+05:30  INFO 13168 --- [school] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-24T11:25:57.378+05:30  INFO 13168 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-24T11:25:57.587+05:30  INFO 13168 --- [school] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 189 ms. Found 14 JPA repository interfaces.
+2026-02-24T11:25:58.725+05:30  INFO 13168 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8084 (http)
+2026-02-24T11:25:58.765+05:30  INFO 13168 --- [school] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-24T11:25:58.766+05:30  INFO 13168 --- [school] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-24T11:25:58.830+05:30  INFO 13168 --- [school] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 6584 ms
+2026-02-24T11:25:59.084+05:30  INFO 13168 --- [school] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-24T11:25:59.215+05:30  INFO 13168 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-24T11:25:59.955+05:30  INFO 13168 --- [school] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-24T11:26:00.045+05:30  INFO 13168 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-24T11:26:00.355+05:30  INFO 13168 --- [school] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@92317d5
+2026-02-24T11:26:00.357+05:30  INFO 13168 --- [school] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-24T11:26:00.562+05:30  INFO 13168 --- [school] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/school_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -27,89 +121,48 @@
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-02-23T11:27:01.122+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.ClassEntity.createdAt.
-2026-02-23T11:27:01.124+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.ClassEntity.updatedAt.
-2026-02-23T11:27:01.157+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.FeesEntity.createdAt.
-2026-02-23T11:27:01.159+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.FeesEntity.updatedAt.
-2026-02-23T11:27:01.169+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.createdAt.
-2026-02-23T11:27:01.170+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.deliveredDate.
-2026-02-23T11:27:01.170+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.dueDate.
-2026-02-23T11:27:01.171+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.readAt.
-2026-02-23T11:27:01.172+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.sentDate.
-2026-02-23T11:27:01.173+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.updatedAt.
-2026-02-23T11:27:01.186+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.admissionDate.
-2026-02-23T11:27:01.187+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.createdAt.
-2026-02-23T11:27:01.188+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.dateOfBirth.
-2026-02-23T11:27:01.195+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.updatedAt.
-2026-02-23T11:27:01.200+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.SubjectEntity.createdAt.
-2026-02-23T11:27:01.203+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.SubjectEntity.updatedAt.
-2026-02-23T11:27:01.216+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.createdAt.
-2026-02-23T11:27:01.217+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.dob.
-2026-02-23T11:27:01.219+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.joiningDate.
-2026-02-23T11:27:01.220+05:30  WARN 16588 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.lastUpdated.
-2026-02-23T11:27:03.235+05:30  INFO 16588 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-02-23T11:27:03.629+05:30  INFO 16588 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-02-23T11:27:03.757+05:30  INFO 16588 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2026-02-23T11:27:07.059+05:30  INFO 16588 --- [school] [restartedMain] com.sc.security.SecurityConfig           : SecurityConfig bean initialized with JwtFilter and UserDetailsService
-2026-02-23T11:27:07.101+05:30 DEBUG 16588 --- [school] [restartedMain] com.sc.security.SecurityConfig           : BCryptPasswordEncoder bean created (default strength = 10)
-2026-02-23T11:27:07.103+05:30 DEBUG 16588 --- [school] [restartedMain] com.sc.security.SecurityConfig           : DaoAuthenticationProvider bean created with custom UserDetailsService
-2026-02-23T11:27:07.108+05:30  INFO 16588 --- [school] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-02-23T11:27:07.109+05:30  WARN 16588 --- [school] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-02-23T11:27:07.110+05:30 DEBUG 16588 --- [school] [restartedMain] com.sc.security.SecurityConfig           : AuthenticationManager bean created from configuration
-2026-02-23T11:27:07.111+05:30  INFO 16588 --- [school] [restartedMain] com.sc.security.AuthController           : AuthController initialized
-2026-02-23T11:27:07.135+05:30  WARN 16588 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-02-23T11:27:07.418+05:30  INFO 16588 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Configuring SecurityFilterChain - stateless JWT authentication
-2026-02-23T11:27:07.420+05:30 DEBUG 16588 --- [school] [restartedMain] com.sc.security.SecurityConfig           : CSRF protection disabled (stateless API)
-2026-02-23T11:27:07.453+05:30  INFO 16588 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Authorization rules applied: /api/admin/auth/** → permitAll, /api/admin/** → authenticated, all others → permitAll
-2026-02-23T11:27:07.454+05:30 DEBUG 16588 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Session management set to STATELESS
-2026-02-23T11:27:07.456+05:30  INFO 16588 --- [school] [restartedMain] com.sc.security.SecurityConfig           : SecurityFilterChain configuration completed successfully
-2026-02-23T11:27:07.714+05:30 DEBUG 16588 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 177 mappings in 'requestMappingHandlerMapping'
-2026-02-23T11:27:07.754+05:30 DEBUG 16588 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2026-02-23T11:27:07.814+05:30 DEBUG 16588 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-02-23T11:27:07.894+05:30 DEBUG 16588 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-02-23T11:27:08.172+05:30  INFO 16588 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
-2026-02-23T11:27:08.185+05:30  INFO 16588 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 17.17 seconds (process running for 19.408)
-2026-02-23T12:00:00.070+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ⏰ CHECKING FOR INSTALLMENTS WITH PASSED DUE DATES...
-2026-02-23T12:00:00.072+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Current date: 2026-02-23
-2026-02-23T12:00:00.482+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Found 2 due installments for student: STU2024012
-2026-02-23T12:00:05.729+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
-2026-02-23T12:00:05.730+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #2 (676 days overdue)
-2026-02-23T12:00:09.723+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
-2026-02-23T12:00:09.725+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #3 (646 days overdue)
-2026-02-23T12:00:09.792+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Found 2 due installments for student: STU2024015
-2026-02-23T12:00:14.021+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: jamdhadenikita9@gmail.com
-2026-02-23T12:00:14.022+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #2 (676 days overdue)
-2026-02-23T12:00:18.217+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: jamdhadenikita9@gmail.com
-2026-02-23T12:00:18.218+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #3 (646 days overdue)
-2026-02-23T12:00:18.269+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Found 3 due installments for student: STU2024014
-2026-02-23T12:00:21.852+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: kunashmedia4@gmail.com
-2026-02-23T12:00:21.853+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #2 (744 days overdue)
-2026-02-23T12:00:25.526+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: kunashmedia4@gmail.com
-2026-02-23T12:00:25.527+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #3 (715 days overdue)
-2026-02-23T12:00:29.174+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: kunashmedia4@gmail.com
-2026-02-23T12:00:29.175+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #4 (684 days overdue)
-2026-02-23T12:00:29.266+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Found 3 due installments for student: STU2024013
-2026-02-23T12:00:33.374+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
-2026-02-23T12:00:33.376+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #2 (679 days overdue)
-2026-02-23T12:00:37.059+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
-2026-02-23T12:00:37.059+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #3 (649 days overdue)
-2026-02-23T12:00:40.953+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
-2026-02-23T12:00:40.954+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #4 (618 days overdue)
-2026-02-23T12:00:41.065+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Found 3 due installments for student: STU2024055
-2026-02-23T12:00:45.148+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
-2026-02-23T12:00:45.148+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #2 (679 days overdue)
-2026-02-23T12:00:49.346+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
-2026-02-23T12:00:49.347+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #3 (649 days overdue)
-2026-02-23T12:00:53.342+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.serviceImpl.EmailServiceImpl       : Overdue reminder email sent successfully to: nikitajamdhade14@gmail.com
-2026-02-23T12:00:53.342+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅ Overdue reminder sent for installment #4 (618 days overdue)
-2026-02-23T12:00:53.343+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ DUE DATE CHECK COMPLETED - Found: 13, Emails Sent: 13
-2026-02-23T13:00:00.004+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ⏰ CHECKING FOR INSTALLMENTS WITH PASSED DUE DATES...
-2026-02-23T13:00:00.006+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Current date: 2026-02-23
-2026-02-23T13:00:00.151+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ DUE DATE CHECK COMPLETED - Found: 0, Emails Sent: 0
-2026-02-23T14:08:50.869+05:30  WARN 16588 --- [school] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m19s960ms588µs200ns).
-2026-02-23T14:50:49.960+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ⏰ CHECKING FOR INSTALLMENTS WITH PASSED DUE DATES...
-2026-02-23T14:50:49.960+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Current date: 2026-02-23
-2026-02-23T14:50:50.091+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ DUE DATE CHECK COMPLETED - Found: 0, Emails Sent: 0
-2026-02-23T15:00:00.003+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ⏰ CHECKING FOR INSTALLMENTS WITH PASSED DUE DATES...
-2026-02-23T15:00:00.003+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Current date: 2026-02-23
-2026-02-23T15:00:00.124+05:30  INFO 16588 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ DUE DATE CHECK COMPLETED - Found: 0, Emails Sent: 0
+2026-02-24T11:26:00.902+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.ClassEntity.createdAt.
+2026-02-24T11:26:00.903+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.ClassEntity.updatedAt.
+2026-02-24T11:26:00.942+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.FeesEntity.createdAt.
+2026-02-24T11:26:00.944+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.FeesEntity.updatedAt.
+2026-02-24T11:26:00.955+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.createdAt.
+2026-02-24T11:26:00.955+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.deliveredDate.
+2026-02-24T11:26:00.955+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.dueDate.
+2026-02-24T11:26:00.957+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.readAt.
+2026-02-24T11:26:00.958+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.sentDate.
+2026-02-24T11:26:00.959+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.NotificationEntity.updatedAt.
+2026-02-24T11:26:00.973+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.admissionDate.
+2026-02-24T11:26:00.974+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.createdAt.
+2026-02-24T11:26:00.975+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.dateOfBirth.
+2026-02-24T11:26:00.982+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.StudentEntity.updatedAt.
+2026-02-24T11:26:00.985+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.SubjectEntity.createdAt.
+2026-02-24T11:26:00.987+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.SubjectEntity.updatedAt.
+2026-02-24T11:26:01.000+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.createdAt.
+2026-02-24T11:26:01.001+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.dob.
+2026-02-24T11:26:01.003+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.joiningDate.
+2026-02-24T11:26:01.004+05:30  WARN 13168 --- [school] [restartedMain] org.hibernate.orm.deprecation            : HHH90000033: Encountered use of deprecated annotation [interface jakarta.persistence.Temporal] at com.sc.entity.TeacherEntity.lastUpdated.
+2026-02-24T11:26:02.869+05:30  INFO 13168 --- [school] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-24T11:26:03.828+05:30  INFO 13168 --- [school] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-24T11:26:03.976+05:30  INFO 13168 --- [school] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-24T11:26:06.923+05:30  INFO 13168 --- [school] [restartedMain] com.sc.security.SecurityConfig           : SecurityConfig bean initialized with JwtFilter and UserDetailsService
+2026-02-24T11:26:06.964+05:30 DEBUG 13168 --- [school] [restartedMain] com.sc.security.SecurityConfig           : BCryptPasswordEncoder bean created (default strength = 10)
+2026-02-24T11:26:06.966+05:30 DEBUG 13168 --- [school] [restartedMain] com.sc.security.SecurityConfig           : DaoAuthenticationProvider bean created with custom UserDetailsService
+2026-02-24T11:26:06.969+05:30  INFO 13168 --- [school] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-02-24T11:26:06.970+05:30  WARN 13168 --- [school] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-02-24T11:26:06.972+05:30 DEBUG 13168 --- [school] [restartedMain] com.sc.security.SecurityConfig           : AuthenticationManager bean created from configuration
+2026-02-24T11:26:06.973+05:30  INFO 13168 --- [school] [restartedMain] com.sc.security.AuthController           : AuthController initialized
+2026-02-24T11:26:07.006+05:30  WARN 13168 --- [school] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-24T11:26:07.220+05:30  INFO 13168 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Configuring SecurityFilterChain - stateless JWT authentication
+2026-02-24T11:26:07.222+05:30 DEBUG 13168 --- [school] [restartedMain] com.sc.security.SecurityConfig           : CSRF protection disabled (stateless API)
+2026-02-24T11:26:07.248+05:30  INFO 13168 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Authorization rules applied: /api/admin/auth/** → permitAll, /api/admin/** → authenticated, all others → permitAll
+2026-02-24T11:26:07.250+05:30 DEBUG 13168 --- [school] [restartedMain] com.sc.security.SecurityConfig           : Session management set to STATELESS
+2026-02-24T11:26:07.251+05:30  INFO 13168 --- [school] [restartedMain] com.sc.security.SecurityConfig           : SecurityFilterChain configuration completed successfully
+2026-02-24T11:26:07.545+05:30 DEBUG 13168 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 196 mappings in 'requestMappingHandlerMapping'
+2026-02-24T11:26:07.585+05:30 DEBUG 13168 --- [school] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-02-24T11:26:07.630+05:30 DEBUG 13168 --- [school] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-02-24T11:26:07.700+05:30 DEBUG 13168 --- [school] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-02-24T11:26:08.053+05:30  INFO 13168 --- [school] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8084 (http) with context path '/'
+2026-02-24T11:26:08.071+05:30  INFO 13168 --- [school] [restartedMain] com.sc.SchoolApplication                 : Started SchoolApplication in 16.837 seconds (process running for 19.799)
+2026-02-24T12:00:00.045+05:30  INFO 13168 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ⏰ CHECKING FOR INSTALLMENTS WITH PASSED DUE DATES...
+2026-02-24T12:00:00.047+05:30  INFO 13168 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : Current date: 2026-02-24
+2026-02-24T12:00:00.840+05:30  INFO 13168 --- [school] [scheduling-1] c.s.s.s.NotificationServiceImpl          : ✅✅ DUE DATE CHECK COMPLETED - Found: 0, Emails Sent: 0
